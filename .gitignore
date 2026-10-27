@@ -1,0 +1,15 @@
+# Environment configuration
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+database.sqlite
+*.sqlite
+*.sqlite3
+*.db
+
+# Development scratch files and IDE configurations
+scratch/
+.idea/
+.vscode/
